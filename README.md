@@ -1,4 +1,4 @@
-# Food Recommendation
+# Food Reviews
 by William Hsia
 
 The project will get user input on a cuisine and a restarant's dish from that cuisine. The user can also input a review for the restaurant's dish by giving a rating and writing a review.
