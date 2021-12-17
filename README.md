@@ -1,20 +1,24 @@
 # Food Reviews
 by William Hsia
 
-The project will get user input on a cuisine and a restarant's dish from that cuisine. The user can also input a review for the restaurant's dish by giving a rating and writing a review.
+Problem Statement: The problem my project is trying to solve is to facilitate the search for a good restaurant by reading the reviews and ratings.
 
-The uml is in the zip file 
+Solution Satement: The solution I implemented is to have users create reviews to many restaurants and a list of users, reviews, and restaurants can be displayed. In addition, a user or a restaurant can be viewed and their respective reviews are displayed, so all the reviews a user wrote or all the reviews to a restaurant. At any time the user can navigate to the different lists with the option to add, edit, view, or delete. 
 
-Description of user data model: The user date model will have the firstName, lastName, username, password, email and dateOfBirth.
+Typical user: The typical user would be a user that has a difficult time searching for a restaurant and by using my project, the user's search would be facilitated and faster.
 
-Description of the domain object data models: The domain objects are cuisine, restaurant and review.
+The uml is can be viewed by clicking on db_design_final_project_UML.pdf above.
 
-Description of the user to domain object relationship: The relationship between user and cuisine will be 1 to many and the relationship between user and review will be one to many.
+Description of user data model: The user data model will have the firstName, lastName, username, password, email and dateOfBirth.
 
-Description of the domain object to domain object relationship: The relationship between cuisine and restaurnat will be one to many and the relationship between review to restaurant will be many to one.
+Description of the domain object data models: The domain objects are cuisine, restaurant and review. The cuisine object will have a cuisine field that will get user input. The restaurant object will have cuisine and name fields. The review object will have review and rating fields with foreign keys to user and restaurant. 
 
-Description of the portable enumeration(s): There will be two enumarations which will be "type" of cuisine and "ratingLimit" for limiitng the range of rating number
+Description of the user to domain object relationship: The relationship between user and cuisine will be 1 to many and the relationship between user and review will be 1 to many.
 
-Description of the user interface requirements: The user will be able to select a cuisine from the type enum and input a restaurant and dish and hen write a review for the restaurant's dish. The user can also see all the reviews for all the restaurants in all the cuisines.
+Description of the domain object to domain object relationship: The relationship between cuisine and restaurant will be 1 to many and the relationship between review to restaurant will be many to 1.
+
+Description of the portable enumeration(s): There will be one enumaration which will be "ratingLimit" for limiitng the range of rating number from 1 to 5.
+
+Description of the user interface requirements: The user will be able to view all the users, reviews, and restaurants. The user's list can add, edit, view, and delete a user and while viewing a particular user, the list of reviews made from the user is displayed. The review's list can add, edit, and delete a review. The restaurant's list can add, edit, view, and delete a restaurant and while viewing a restaurant, the list of reviews made to the restaurant is displayed. The user can also navigate to a cuisine tab where a cuisine can be inputed and the restaurants will be filtered according to the cuisine. 
 
 The code is in the github branch from this repository called code.
