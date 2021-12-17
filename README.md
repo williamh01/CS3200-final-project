@@ -22,3 +22,5 @@ Description of the portable enumeration(s): There will be one enumaration which 
 Description of the user interface requirements: The user will be able to view all the users, reviews, and restaurants. The user's list can add, edit, view, and delete a user and while viewing a particular user, the list of reviews made from the user is displayed. The review's list can add, edit, and delete a review. The restaurant's list can add, edit, view, and delete a restaurant and while viewing a restaurant, the list of reviews made to the restaurant is displayed. The user can also navigate to a cuisine tab where a cuisine can be inputed and the restaurants will be filtered according to the cuisine. 
 
 The code is in the github branch from this repository called code.
+
+Disclaimer: The code is made in React and using the firebase firestore database. 
